@@ -77,7 +77,6 @@ button.entrena {
     gap: 40px;
     max-width: 100%;
     height: auto;
-    
 }
 
 .redes{
@@ -187,33 +186,47 @@ button.entrena {
 
 /**SOCIOS**/
 
+.sociosbody{
+    background: linear-gradient(to bottom, #000000, #000044);
+}
 .containerSocios{
-        background-color: #00203f	;
-        display: flex;
-        align-items: center; 
-        height: 100vh;
-        flex-direction: column;
-        gap: 20px;
-        color: white;
-        font-family: "Kanit", sans-serif;
-    }
+    width: 40vh; 
+    height: 49vh;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border-radius: 20px;;
+    text-align: center;
 
+}
+.login-form{
+    font-size: 22px;
+    margin-bottom: 30px;
+}
 
-.button{ 
-        background-color: rgb(234, 226, 226);
-        color: black;
-        padding: 10px;
-        font-size: 11px;
-        border-radius: 20px 10px;
-        margin-top: 15px;
+.form-group{
+    margin-bottom: 10px;
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px auto 0;
+   
 }
 
 
 /**DEPORTES**/
 
 .deportesColor{
-    background-color: #00203f;
-    color: white;
+    background: linear-gradient(to bottom, #000000, #000044);
+    color: rgb(255, 255, 255);
 }
 
 .navDeportes{
@@ -221,25 +234,29 @@ button.entrena {
     display: flex;
     justify-content: center; 
     align-items: center;
-    margin: 25px;
 }
 
 .divDeportes{
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 30px;
 }
 .divDeportes h1{
-    padding: 20px;
+    padding: 50px;
     font-size: 55px;
 }
 .divDeportes p{
     display: flex;
     justify-content: center;
     max-width: 600px;
-    margin-left: 29%;
     text-align: justify;
     align-items: center;
+    padding-bottom: 30px;
+}
+
+.divDeportes h2{
+    padding-bottom: 20px;
 }
 
 
@@ -251,7 +268,7 @@ button.entrena {
     box-sizing: border-box;
     text-decoration: none;
     font-family: "Kanit", sans-serif;
-    background-color: #00203f;
+    background: linear-gradient(to bottom, #000000, #000044);
     color: white;
 }
 
@@ -288,11 +305,10 @@ button.entrena {
 /**CONTACTO**/
 
 .contactoColor{
-    background-color: #00203f;
+    background: linear-gradient(to bottom, #000000, #000044);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
     color: white;
 }
 
