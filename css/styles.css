@@ -512,8 +512,7 @@ button.entrena {
     margin-bottom: 50px;
 }
 
-/**CONTACTO**/
-
+/**CONTACTO**/  
 .contactoColor{
     background: linear-gradient(to bottom, #000000, #000044);
     margin: 0;
@@ -529,39 +528,22 @@ button.entrena {
  
 }
 
-.input-group{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    padding: 10px ;
-    color: white;
-    background: red;
-    margin-right: 80px;
-    margin-left: 80px;
-    gap: 15px;
-    margin: 0 auto; 
-    max-width: 400px
+
+
+
+
+
+.mb-4{
+    background-color :#030443;
+    border-radius: 10px 20px 10px 20px;
 }
 
-.contactoMail input[type="text"],
-.contactoMail textarea {
-    color: black; 
+.mb-3{
+    background-color:#030443;
+    border-radius: 10px 20px 10px 20px;
 }
 
-.contactoMail h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: bold ;
-    font-size: 42px;
-    text-align: center;
-    margin-top: 10px;
-    gap: 20px;
+.btn.btn-primary {
+    background-color: #030443;
+    border-radius: 10px 20px 10px 20px;
 }
-
-.button{ color: black;
-        padding: 10px;
-        font-size: 11px;
-        border-radius: 20px 10px;
-        
-    }

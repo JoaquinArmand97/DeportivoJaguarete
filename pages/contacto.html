@@ -5,34 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
     <title>Contacto</title>
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-5.3.3-dist/css/bootstrap-reboot.min.css">
+    
 </head>
+
 <body class="contactoColor">
     <nav class="navLogo">
 
         <a href="../index.html">
         <img src="../assets/Logo:Jagua.png" width="100px" height="100px">
+        
     </a>
+    
     </nav>
 
-        <form class="contactoMail">
-            <h1>Contactanos</h1>
-            <div class="input-group">
-                <label for="name">Nombre y apellido</label>
-                <input type="text" nombre="nombre" id="nombre" placeholder="Nombre y apellido">
-
-                <label for="number">Telefono</label>
-                <input type="text" nombre="telefono" id="telefono" placeholder="Numero de telefono">
-
-                <label for="email">Correo Electronico</label>
-                <input type="text" nombre="correo" id="correo" placeholder="Correo Electronico">
-
-                <label for="text">Mensaje</label>
-                <textarea name="mensaje" id="mensaje" cols="42" rows="20" placeholder="Escribi tu mensaje"></textarea>
-
-                <input class="button" type="submit" value="Enviar">
-
+    <div class="container mt-5 mb-5">
+        <div class="row justify-content-center ">
+            <div class="col-md-6">
+                <div class="bg-danger p-4 rounded">
+                    <h2 class="mb-4 text-white p-3 text-center">Contactos</h2>
+                    <form action="enviar_correo.php" method="post">
+                        <div class="mb-3 text-center ">
+                            <label for="nombre" class="form-label">Nombre:</label>
+                            <input type="text" class="form-control" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="mb-3 text-center">
+                            <label for="email" class="form-label">Correo electrónico:</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3  text-center">
+                            <label for="asunto" class="form-label">Asunto:</label>
+                            <input type="text" class="form-control" id="asunto" name="asunto" required>
+                        </div>
+                        <div class="mb-3  text-center">
+                            <label for="mensaje" class="form-label">Mensaje:</label>
+                            <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-         </form>
+        </div>
+    </div>
+
 
          <footer class="footer"> 
             <div class="redes">
@@ -55,6 +73,6 @@
             </div>
         </footer>
     
-        
+        <script src="../bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
