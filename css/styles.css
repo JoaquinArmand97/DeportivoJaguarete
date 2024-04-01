@@ -20,6 +20,10 @@
     left: 0;
 }
 
+.logoIndex{
+    width: 100px;
+    height: 100px;
+}
 
 #navInicio h2 {
     color: rgb(255, 255, 255);
@@ -110,10 +114,21 @@ button.entrena {
     height: 35px; 
 }
 
-
 @media screen and (max-width: 375px){
+
+    .logoIndex{
+        width: 70px;
+        height: 70px;
+    }
+
+    #navInicio h2{
+        font-size: 10px;
+    }
+
     .miTexto h1{
-        font-size: 20px;
+        font-size: 22px;
+        
+      
     }
 
     .redes{
@@ -135,6 +150,30 @@ button.entrena {
         height: 25px; 
     }
 
+    .containerSocios div{
+        width: 20vh; 
+        height: 29vh;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(136, 229, 7);
+        border-radius: 20px;;
+        text-align: center;
+    
+    }
+
+    .login-form h1{
+        font-size: 24px;
+    }
+
+    .loginBtn{
+        padding: 1px;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+    
 
 }
 
@@ -160,7 +199,26 @@ button.entrena {
     }
 
 
+    .containerSocios div{
+     width: 50px;
+     height: 20px;
+    
+    }
+
+    .login-form h1{
+        font-size: 15px;
+    }
+
+    .loginBtn{
+        padding: 1px;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+
+
 }
+
+
 
 @media screen and (min-width: 467px) and (max-width: 568px){
     #navInicio h2{
@@ -185,6 +243,31 @@ button.entrena {
         width: 25px; 
         height: 25px; 
     }
+
+    .containerSocios div {
+        width: 31px;
+        height: 36px;
+    }
+
+    .login-form h1{
+        font-size: 45px;
+    }
+
+    .loginBtn{
+        padding: 1px;
+        border-radius: 10px;
+        font-size: 9px;
+    }
+
+
+
+}
+
+@media (max-width: 763px){
+    .miTexto{
+        font-size: 10px;
+    }
+
 
 }
 @media screen and (max-width: 768px) {
@@ -222,7 +305,7 @@ button.entrena {
     }
 
     .miDiv{
-        background-image: url('../assets/PortadaJaguaMobile.jpg');
+        background-image: url('../assets/FondoMobileAzul.jpg');
     }
     .footer{
        display: flex;
@@ -244,7 +327,17 @@ button.entrena {
         justify-content: center; 
         align-items: center; 
     }
-    
+
+    .login-form h1{
+        font-size: 30px;
+    }
+
+    .loginBtn {
+        padding: 2px;
+        border-radius: 10px;
+        font-size: 13px;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 1017px){
@@ -274,7 +367,7 @@ button.entrena {
     }
 
     .miDiv{
-        background-image: url(../assets/PortadaJaguaMobile.jpg);
+        background-image: url(../assets/FondoMobileAzul.jpg);
     }
 
     .miTexto{
@@ -300,6 +393,21 @@ button.entrena {
         display: flex;
         justify-content: center; 
         align-items: center; 
+    }
+
+    .containerSocios div{
+        width: 20px;
+        height: 20px;
+    }
+   
+    .login-form h1 {
+        font-size: 25px;
+    }
+
+    #loginBtn {
+        padding: 2px;
+        border-radius: 10px;
+        font-size: 10px;
     }
     
 }
@@ -384,8 +492,8 @@ button.entrena {
     height: 100vh;
 }
 .containerSocios div{
-    width: 40vh; 
-    height: 49vh;
+    width: 26%; 
+    height: 39%;
     margin: 60px auto;
     display: flex;
     flex-direction: column;
@@ -527,23 +635,4 @@ button.entrena {
     padding:  20px;
  
 }
-
-
-
-
-
-
-.mb-4{
-    background-color :#030443;
-    border-radius: 10px 20px 10px 20px;
-}
-
-.mb-3{
-    background-color:#030443;
-    border-radius: 10px 20px 10px 20px;
-}
-
-.btn.btn-primary {
-    background-color: #030443;
-    border-radius: 10px 20px 10px 20px;
-}
+ 
