@@ -4,43 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicia Sesion</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles-original.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body class="sociosbody">
-    <nav>
-        <a href="../index.html">
-        <img src="../assets/Logo:Jagua.png" class="logo"></a>
-    </nav>
-    <div class="containerSocios">
-        <div class="containerSocios-div">
-            <form class="login-form" id="loginForm">
-                <h1>Iniciar sesión</h1>
-                <form class="form-group">
-                  <input type="text" id="username" name="username" placeholder="Usuario" required>
-                  <input type="password" id="password" name="password" placeholder="Contraseña" required>
-                <button id="loginBtn" type="submit">Iniciar sesión</button>
-              </form>
+
+    <div class="contenedor-total">
+        <nav id="navInicio">
+    
+          <a href="../index.html">
+            <img src="../assets/Logo:Jagua.png" alt="LOGO" class="logoIndex">
+        </a>
+            
+            <a href="../index.html"><h2>Inicio</h2></a>
+           
+            <a href="./pages/nosotros.html"><h2>Nosotros</h2></a>
+    
+            <a href="./pages/deportes.html"> <h2>Deportes</h2></a>
+    
+            <a href="./pages/historia.html"><h2>Historia</h2></a>
+    
+            <a href="./contacto.html"><h2>Contacto</h2></a>
+    
+        </nav> 
+        <div class="containerbody">
+            <div class="wrapper">
+                <form action="">
+                    <h1>Login</h1>
+                    <div class="input-box">
+                        <input type="text" placeholder="Usuario" required>
+                        <i class='bx bx-user'></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Contraseña" required>
+                        <i class='bx bx-lock-alt' ></i>
+                    </div>
+                    <div class="remember-forgot">
+                        <label>
+                            <input type="checkbox">remember me
+                        </label>
+                        <a href="#">forgot password</a>
+                    </div>
+                    <button type="button" class="btn" 
+                    onclick="window.location.href='../pages/animationsocios.html'">Login</button>
+                </form>
+                <div class="register-link">
+                    <p>no esta registrado?<a href="#"> Registrate</a>
+                     </p>
+                </div>
+            </div>
         </div>
-      </div>
-      <footer class="footer"> 
-        <div class="redes">
-            <a href="https://www.facebook.com/djaguarete">
-            <img class="redesImg" src="../assets/FacebookWHITE.png"> </a>
-            <a href="https://www.instagram.com/djaguarete">
-            <img class="redesImg" src="../assets/InstagramWHITE.png"></a> 
-            <a href="https://twitter.com/djaguarete"> 
-            <img class="redesImg" src="../assets/Xwhite.png"></a> 
-            <a href="https://www.youtube.com/@DEPJAGUARETE">
-            <img class="redesImg" src="../assets/YoutubeWHITE.png"></a>
-        </div>
-        <div class="direccion">
-            <img src="../assets/iconsWhite2.png">
-            <span>Mendoza 1363, Corrientes</span>
-            <img src="../assets/correoWhite1.png">
-            <span>djaguarete@gmail.com</span>   
-            <img src="../assets/iconsWhite3.png">
-            <span>+54 3794828758</span>
-        </div>
+        <footer class="footer"> 
+            <div class="redes">
+                <a href="https://www.facebook.com/djaguarete">
+                <img class="redesImg" src="../assets/FacebookWHITE.png"> </a>
+                <a href="https://www.instagram.com/djaguarete">
+                <img class="redesImg" src="../assets/InstagramWHITE.png"></a> 
+                <a href="https://twitter.com/djaguarete"> 
+                <img class="redesImg" src="../assets/Xwhite.png"></a> 
+                <a href="https://www.youtube.com/@DEPJAGUARETE">
+                <img class="redesImg" src="../assets/YoutubeWHITE.png"></a>
+            </div>
+            <div class="direccion">
+                <img src="../assets/iconsWhite2.png">
+                <span>Mendoza 1363, Corrientes</span>
+                <img src="../assets/correoWhite1.png">
+                <span>djaguarete@gmail.com</span>   
+                <img src="../assets/iconsWhite3.png">
+                <span>+54 3794828758</span>
     </footer>
+    
 </body>
 </html>
