@@ -192,8 +192,8 @@ button.masinfo {
 }
 
 
-
 /**NOSOTROS**/
+
 .contenedor-total{
     display: flex;
     flex-direction: column;
@@ -411,7 +411,8 @@ button.masinfo {
     margin-bottom: 30px;
 }
 .divDeportes h1{
-    padding: 50px;
+    padding: 70px;
+    margin-top: 20px;
     font-size: 55px;
 }
 .divDeportes p{
@@ -486,6 +487,11 @@ button.masinfo {
  
 }
  
+
+.formulario-container {
+    margin-top: 50px; 
+}
+
 
 @media screen and (max-width: 256px){
 
