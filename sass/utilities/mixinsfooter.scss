@@ -1,0 +1,39 @@
+@mixin footer-design {
+    color: map-get($colores, texto);
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #03045e, #000000);
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 100%;
+    width: 100%;
+    padding: 30px;
+    margin: 0;
+  
+    .redes {
+      display: flex;
+      flex-direction: row;
+      gap: 15px;
+      margin-left: 30px;
+      justify-content: center;
+      align-items: center;
+      margin: 5px;
+    }
+    .direccion {
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+      gap: 15px;
+      font-size: 18px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    img {
+      max-width: 40px;
+    }
+    .redes img {
+      width: 35px;
+      height: 35px;
+    }
+  }
+  

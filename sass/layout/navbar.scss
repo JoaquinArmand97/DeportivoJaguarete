@@ -1,0 +1,37 @@
+.bg-black {
+    background-color: black;
+  }
+  
+  
+  .navbar-toggler-icon {
+    background-color: rgb(233, 230, 240);
+  }
+  
+  
+  #menu {
+    display: none;
+  }
+  .checkbox{
+    display: none;
+  }
+  
+  #navInicio {
+      width: 100%;
+      font-size: 15px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      position: absolute;
+      top: 0;
+      left: 0;
+  }
+  
+  #navInicio .logoIndex {
+      width: 100px;
+      height: 100px;
+  }
+  
+  #navInicio h2 {
+      color: map-get($colores, texto); 
+  }

@@ -1,0 +1,82 @@
+.deportesColor {
+    background: linear-gradient(to bottom, #000000, #000044);
+    color: map-get($colores, fondo);
+  }
+  
+  .navDeportes {
+    color:map-get($colores, texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .divDeportes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+  
+    h1 {
+      padding: 70px;
+      margin-top: 20px;
+      font-size: 55px;
+    }
+  
+    p {
+      display: flex;
+      justify-content: center;
+      max-width: 600px;
+      text-align: justify;
+      align-items: center;
+      padding-bottom: 30px;
+    }
+  
+    h2 {
+      padding-bottom: 20px;
+      margin: 20px;
+    }
+    
+    .img-fluid {
+      transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  }
+
+    .img-fluid:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 40px rgba(255, 0, 0, 0.5); 
+  }
+
+  }
+  .historiaColor {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Kanit", sans-serif;
+    background: map-get($colores, fondo);
+    color: map-get($colores, texto);
+  }
+  
+  .navDeportes {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .portadaHistoria {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .divDeportes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    padding: 50px;
+    color: white;
+  }
+  
+  

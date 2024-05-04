@@ -1,0 +1,4 @@
+ @import "../utilities/mixinsfooter.scss";
+ .footer {
+    @include footer-design;
+  }
