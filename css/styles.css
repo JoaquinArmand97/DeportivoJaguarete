@@ -127,8 +127,12 @@ button.masinfo {
   margin-bottom: 20px;
 }
 .main-terreno .main-sueño p {
-  width: 40%;
+  width: 90%;
   font-size: 26px;
+}
+
+h1{
+  line-height: normal;
 }
 
 @-webkit-keyframes scale-up-center {
@@ -175,7 +179,7 @@ button.masinfo {
 .footer .direccion {
   display: flex;
   align-items: center;
-  flex-direction: row;
+  /* flex-direction: row; */
   gap: 15px;
   font-size: 18px;
   margin-right: auto;
@@ -213,8 +217,7 @@ button.masinfo {
 .nosotros h1 {
   text-align: center;
   font-size: 45px;
-  padding: 75px;
-  margin: 40px;
+  margin: 10px;
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
   text-shadow: 2px 2px 4px red;
